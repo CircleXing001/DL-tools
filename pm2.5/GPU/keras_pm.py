@@ -76,4 +76,4 @@ inv_y = concatenate((test_y, test_X[:, 1:]), axis=1)
 inv_y = scaler.inverse_transform(inv_y)
 inv_y = inv_y[:,0]
 rmse = sqrt(mean_squared_error(inv_y, inv_yhat))
-print('Test RMSE: %f' % rmse)
+print('Test RMSE: %f' % rmse) 
