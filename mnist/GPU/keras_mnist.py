@@ -32,4 +32,4 @@ train_start=time.time()
 model.fit(x_train,y_train,batch_size=50,epochs=10,verbose=1)
 train_end=time.time()
 train_time=train_end-train_start
-print('The time cost in train:%f'%train_time)
+print('The time cost in train:%f'%train_time) 
