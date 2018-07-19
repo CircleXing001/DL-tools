@@ -50,4 +50,4 @@ with mx.Context(gpu_device):
 		)
 	train_end=time.time()
 	train_time=train_end-train_start
-	print('The time cost in train:%f'%train_time)
+	print('The time cost in train:%f'%train_time) 
