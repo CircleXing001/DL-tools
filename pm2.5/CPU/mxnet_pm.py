@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May  9 02:23:12 2018
-
-@author: Administrator
-"""
 import time
 start_all=time.time()
 from pandas import read_csv
