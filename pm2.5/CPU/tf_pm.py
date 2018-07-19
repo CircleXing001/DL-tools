@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue May  8 23:16:02 2018
-
-@author: Administrator
-"""
 import time
 start_all=time.time()
 from math import sqrt
