@@ -1,4 +1,4 @@
-import time
+import time 
 from matplotlib import pyplot
 from keras.models import Sequential
 from keras.layers.core import Dense, Dropout, Activation, Flatten,Reshape
